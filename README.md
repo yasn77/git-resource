@@ -142,6 +142,9 @@ Submodules are initialized and updated recursively.
   fetched. If not specified, or if `all` is explicitly specified, all
   submodules are fetched.
 
+* `submodules_remote`: *Optional.* If set to `true`, then submodule remote
+  tracking will be enabled. Default is set to `false`.
+
 * `disable_git_lfs`: *Optional.* If `true`, will not fetch Git LFS files.
 
 #### GPG signature verification
